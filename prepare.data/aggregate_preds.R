@@ -5,7 +5,8 @@ library(tidyverse)
 pth = 'C:/Users/midolo/OneDrive - CZU v Praze/czu/intrplEU_EIV/interpolated_EIV_change/preds/'
 
 # loop & export
-for (i in c('L','M','N','R','T')) {
+eiv_names <- c('L','M','N','R','T')
+for (i in eiv_names) {
   
   # load data
   dat <- paste0(pth, 'EIV_', i,  '.preds.rf.csv.gz') %>%
@@ -27,6 +28,7 @@ for (i in c('L','M','N','R','T')) {
    
    # export
    write_rds(
-    
+    dat,
+    paste0(i,'_data.rds')
    )
 }
