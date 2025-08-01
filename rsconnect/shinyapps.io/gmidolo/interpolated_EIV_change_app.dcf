@@ -1,0 +1,13 @@
+name: interpolated_EIV_change_app
+title: interpolated_EIV_change_app
+username: gmidolo
+account: gmidolo
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 15150623
+bundleId: 10712129
+url: https://gmidolo.shinyapps.io/interpolated_EIV_change_app/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: prepare.data/aggregate_preds.R|README.md
