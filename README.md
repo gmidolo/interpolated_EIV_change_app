@@ -11,17 +11,12 @@ We interpolated spatiotemporal changes in community-mean ecological indicator va
 
 Predictions of &#916;CM<sub>EIV</sub> from individual plots are aggregated onto a 10 km &times; 10 km grid. On the map, point size represents the number of plots within each grid cell. Areas with denser sampling in space and time are more likely to show more accurate trends.
 
-<strong>Article repository</strong>: 
-                  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="15" style="vertical-align: middle; margin-right: 3px;"/> <a href="https://github.com/gmidolo/interpolated_EIV_change" target="_blank">github.com/gmidolo/interpolated_EIV_change</a>'
+<strong>Article repository</strong>: <a href="https://github.com/gmidolo/interpolated_EIV_change" target="_blank">github.com/gmidolo/interpolated_EIV_change</a>
 
 
 #### Author:
 <strong>Gabriele Midolo</strong><a href="https://orcid.org/0000-0003-1316-2546" target="_blank" style="margin-left: 5px;"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg" width="15" style="vertical-align: middle;"/></a> (<a href="mailto:midolo@fzp.czu.cz">midolo@fzp.czu.cz</a>) <br> Department of Spatial Sciences, Faculty of Environmental Sciences, Czech University of Life Sciences Prague, Kamýcká 129, 165 00, Praha - Suchdol, Czech Republic
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 53433d19e29c9c3e7ccc2ca7a3d4411fa1678ff6
 #### Project contributors:<br>
 Petr Keil <a href="https://orcid.org/0000-0003-3017-1858" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg" class="is-rounded" width="15" style="vertical-align: middle;"/></a>,
 Adam Thomas Clark <a href="https://orcid.org/0000-0002-8843-3278" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg" class="is-rounded" width="15" style="vertical-align: middle;"/></a>,
