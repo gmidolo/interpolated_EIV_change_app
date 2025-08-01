@@ -231,7 +231,7 @@ server <- function(input, output, session) {
     # if (is.null(current_zoom))
     #   {current_zoom <- 4}
     
-    fac = 0.15
+    fac = 0.1
     zoomy = input$map_zoom
     scale_factor =  zoomy * fac + (zoomy * fac)^2
     
