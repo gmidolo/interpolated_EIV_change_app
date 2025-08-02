@@ -36,7 +36,7 @@ ui <- fluidPage(
   
   # title
   titlePanel(
-    tags$h3('Geographic patterns of community-mean ecological indicator value (eiv) change in Europe from 1960 to 2020',
+    tags$h3('Geographic patterns in changes of community-mean Ecological Indicator Values (EIVs) across Europe, 1960–2020',
             style = 'font-size: 24px; font-weight: bold; color: #333;')
   ),
   
@@ -48,10 +48,9 @@ ui <- fluidPage(
       div(style = 'margin-bottom: 20px; font-size: 1.1em; line-height: 1.4;',
           p(HTML("We interpolated spatiotemporal changes in community-mean ecological indicator values (sourced from the EIVE database; <a href='https://doi.org/10.3897/VCS.98324' target='_blank'>Dengler et al. 2023</a>) between 1960 and 2020 using Random Forests. Predictions are obtained over 606,818 European vegetation plots available on the <a href='https://euroveg.org/eva-database/' target='_blank'>European Vegetation Archive</a> (<a href='https://doi.org/10.1111/avsc.12519' target='_blank'>Chytrý et al. 2020</a>) and <a href='https://euroveg.org/resurvey/' target='_blank'>ReSurveyEurope</a> (<a href='https://doi.org/10.1111/jvs.13235' target='_blank'>Knollová et al. 2024</a>).")),
           p(HTML("Predictions of &#916;CM<sub>EIV</sub> from individual plots are aggregated onto a 10 km &times; 10 km grid. On the map, point size represents the number of plots within each grid cell. Areas with denser sampling in space and time are more likely to show more accurate trends.")),
-          p(HTML('<strong>Article repository</strong>: 
-                  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="15" style="vertical-align: middle; margin-right: 3px;"/> <a href="https://github.com/gmidolo/interpolated_EIV_change" target="_blank">github.com/gmidolo/interpolated_EIV_change</a>')),
-          p(HTML('<strong>App repository</strong>: 
-                  <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="15" style="vertical-align: middle; margin-right: 3px;"/> <a href="https://github.com/gmidolo/interpolated_EIV_change_app" target="_blank">github.com/gmidolo/interpolated_EIV_change_app</a>'))
+          p(HTML('<strong>Data & Code</strong>:<br>
+                  <i>Manuscript </i> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="15" style="vertical-align: middle; margin-right: 3px;"/> <a href="https://github.com/gmidolo/interpolated_EIV_change" target="_blank">github.com/gmidolo/interpolated_EIV_change</a><br>
+                  <i>Shiny app </i> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="15" style="vertical-align: middle; margin-right: 3px;"/> <a href="https://github.com/gmidolo/interpolated_EIV_change_app" target="_blank">github.com/gmidolo/interpolated_EIV_change_app</a>'))
       ),
       
       selectInput('eiv_choice', 'Ecological Indicator Value:',

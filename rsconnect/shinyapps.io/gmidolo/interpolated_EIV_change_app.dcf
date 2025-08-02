@@ -5,7 +5,7 @@ account: gmidolo
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 15150623
-bundleId: 10712313
+bundleId: 10715661
 url: https://gmidolo.shinyapps.io/interpolated_EIV_change_app/
 version: 1
 asMultiple: FALSE
