@@ -36,8 +36,9 @@ ui <- fluidPage(
   
   # title
   titlePanel(
-    tags$h3('Geographic patterns in changes of community-mean Ecological Indicator Values (EIVs) across Europe, 1960–2020',
-            style = 'font-size: 24px; font-weight: bold; color: #333;')
+    title = tags$h3('Geographic patterns in changes of community-mean Ecological Indicator Values (EIVs) across Europe, 1960–2020',
+            style = 'font-size: 24px; font-weight: bold; color: #333;'),
+    windowTitle = ' Ecological Indicator Values change in European plant communities'
   ),
   
   # menu structure
