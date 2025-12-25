@@ -2,7 +2,7 @@
 library(tidyverse)
 
 # path where interpolation results are stored
-pth = 'C:/Users/midolo/OneDrive - CZU v Praze/czu/intrplEU_EIV/interpolated_EIV_change/preds/'
+pth <- paste0('C:/Users/', Sys.info()['user'], '/OneDrive - CZU v Praze/czu/intrplEU_EIV/interpolated_EIV_change/preds/')
 
 # loop & export
 eiv_names <- c('L','M','N','R','T')
